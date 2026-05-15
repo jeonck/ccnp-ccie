@@ -6,6 +6,16 @@ title: 포트 보안
 # 포트 보안
 **Port Security / DAI / DHCP Snooping**
 
+## 정의
+
+L2 스위치 포트에서 발생하는 MAC Flooding·ARP Spoofing·Rogue DHCP 등의 위협을 **MAC 주소 제어, DHCP 바인딩 검증, ARP 패킷 검사**로 차단하는 통합 L2 보안 메커니즘.
+
+## 특징
+
+- (다층 방어 구조) Port Security·DHCP Snooping·DAI가 연계하여 MAC·DHCP·ARP 위협을 계층적으로 차단
+- (포트 단위 세밀한 제어) 포트별로 허용 MAC 수, 학습 방식(Static/Dynamic/Sticky), 위반 동작을 독립 설정
+- (바인딩 테이블 기반 자동 검증) DHCP Snooping의 IP-MAC-Port 바인딩을 DAI가 참조하여 ARP 위조 자동 차단
+
 ## 왜 필요한가?
 
 L2 네트워크는 MAC 주소를 신뢰 기반으로 동작하기 때문에 다양한 공격에 취약하다. 대표적인 3가지 위협과 그 방어책을 다룬다.
