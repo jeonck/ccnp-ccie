@@ -12,9 +12,9 @@ L2 스위치 포트에서 발생하는 MAC Flooding·ARP Spoofing·Rogue DHCP �
 
 ## 특징
 
-- (다층 방어 구조) Port Security·DHCP Snooping·DAI가 연계하여 MAC·DHCP·ARP 위협을 계층적으로 차단
-- (포트 단위 세밀한 제어) 포트별로 허용 MAC 수, 학습 방식(Static/Dynamic/Sticky), 위반 동작을 독립 설정
-- (바인딩 테이블 기반 자동 검증) DHCP Snooping의 IP-MAC-Port 바인딩을 DAI가 참조하여 ARP 위조 자동 차단
+- **(다층 방어 구조)** Port Security·DHCP Snooping·DAI가 연계하여 MAC·DHCP·ARP 위협을 계층적으로 차단
+- **(포트 단위 세밀한 제어)** 포트별로 허용 MAC 수, 학습 방식(Static/Dynamic/Sticky), 위반 동작을 독립 설정
+- **(바인딩 테이블 기반 자동 검증)** DHCP Snooping의 IP-MAC-Port 바인딩을 DAI가 참조하여 ARP 위조 자동 차단
 
 ## 왜 필요한가?
 
